@@ -1,4 +1,4 @@
-# Kaltura-Download-Toggle
+# Kaltura-Download-Extension
 The purpose behind the development of the "Kaltura Offline Access" extension is to provide a practical solution for students who utilize Kaltura's video platform. This extension is designed with the specific goal of enabling students to effortlessly download videos from the Kaltura platform, thereby facilitating convenient offline viewing.
 
 The extension's core functionality is centred around the URL "https://api.sg.kaltura.com".
