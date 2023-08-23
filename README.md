@@ -4,12 +4,12 @@ The purpose behind the development of the "Kaltura Offline Access" extension is 
 The extension's core functionality is centred around the URL "https://api.sg.kaltura.com".
 
 # To get started 
-- Download and extract Kaltura-Download-Toggle.zip
+- Download and extract Kaltura-Download-Toggle-main.zip
 - Go to chrome://extensions/
 - Enable Developer mode
 - Load unpacked
-- Select Kaltura-Download-Toggle
-- Reload and the extension will be on the extension menu
+- Select the unzipped Kaltura-Download-Toggle-main file
+- Reload and the extension will be on the extension menu (default is off)
 - Toggle it on/off as needed
 - When on click on the play button of the video and it will start downloading it
 # Notes 
