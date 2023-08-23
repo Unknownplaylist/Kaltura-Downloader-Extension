@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Kaltura Download Toggle",
+  "version": "1.0",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "<all_urls>",
+    "storage",
+    "downloads"
+    
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "kaltura.png"
+  },
+
+  "browser_action": {
+    "default_icon": "kaltura.png",
+    "default_title": "GET Request",
+    "default_popup": "popup.html"
+  }
+}
