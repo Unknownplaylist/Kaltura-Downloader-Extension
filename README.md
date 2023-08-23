@@ -10,7 +10,7 @@ The extension's core functionality is centred around the URL "https://api.sg.kal
 - Select load unpacked
 - Select the extracted Kaltura-Download-Toggle-main file
 - Reload and the extension will be on the extension menu
-  - Watch this video if still unsure how to load extension
+  - Watch this video if still unsure how to load the extension
   - https://www.youtube.com/watch?v=oswjtLwCUqg
 - Toggle it on/off as needed (default is off)
 - When on, play the video and it will start downloading the video
@@ -20,7 +20,7 @@ The extension's core functionality is centred around the URL "https://api.sg.kal
   
 # Explanation
 - Load the page
-- When you play the video, the extension finds for the "GET" request matching the parameter, which is the ending of "GET" request url being seg-1-v1-a1.ts
+- When you play the video, the extension finds the "GET" request matching the parameter, which is the ending of the "GET" request URL being seg-1-v1-a1.ts
   - Found in [background.js](background.js)
   ```
   function onWebRequestCompleted(details) {
@@ -30,13 +30,13 @@ The extension's core functionality is centred around the URL "https://api.sg.kal
   }
   ```
 - "GET" request url segment example  ```https://vodcdn.sg.kaltura.com/hls/p/......../name/a.mp4/seg-1-v1-a1.ts ```
-- Then it replace the "/p/" to a "/pd/" 
+- Then it replaces the "/p/" with "/pd/" 
 - Subsequently downloading it as a mp4 file
-- Credit goes to RobMOz , edimshuffling and the numerous other contributors from the Stack Overflow community
+- Credit goes to RobMOz, edimshuffling and the numerous other contributors from the Stack Overflow community
   
 # References
 - https://stackoverflow.com/questions/56366523/obtaining-direct-download-link-for-an-embedded-kaltura-video
-  - The extension is an automation on RobMOz explanation while using edimshuffling URL edit method on this stackoverflow question 
+  - The extension is an automation on RobMOz explanation while using edimshuffling URL edit method on this Stackoverflow question 
 - kaltura.png IMAGE 
   - Kaltura. (n.d.). Retrieved August 23, 2023, from https://avatars.githubusercontent.com/u/319096?s=200&amp;v=4. 
 
