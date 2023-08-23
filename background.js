@@ -49,7 +49,7 @@ function openModifiedSegmentRequest(originalUrl) {
 }
 
 function downloadSegment(url) {
-  const filename = url.substring(url.lastIndexOf("/") + 1);
+  const filename = "downloaded_video.mp4";
   const downloadOptions = {
     url: url,
     filename: filename,
@@ -60,4 +60,3 @@ function downloadSegment(url) {
     // Handle download completion if needed
   });
 }
-
