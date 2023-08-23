@@ -1,5 +1,5 @@
-# Kaltura-Download-Extension
-The purpose behind the development of the "Kaltura-Download-Extension" is to provide a practical solution for students who utilize Kaltura's video platform. This extension is designed with the specific goal of enabling students to effortlessly download videos from the Kaltura platform, thereby facilitating convenient offline viewing.
+# Kaltura-Downloader-Extension
+The purpose behind the development of the "Kaltura-Downloader-Extension" is to provide a practical solution for students who utilize Kaltura's video platform. This extension is designed with the specific goal of enabling students to effortlessly download videos from the Kaltura platform, thereby facilitating convenient offline viewing.
 
 The extension's core functionality is centred around the URL "https://api.sg.kaltura.com".
 
@@ -9,7 +9,9 @@ The extension's core functionality is centred around the URL "https://api.sg.kal
 - Enable Developer mode
 - Select load unpacked
 - Select the extracted Kaltura-Download-Toggle-main file
-- Reload and the extension will be on the extension menu 
+- Reload and the extension will be on the extension menu
+  - Watch this video if still unsure how to load extension
+  - https://www.youtube.com/watch?v=oswjtLwCUqg
 - Toggle it on/off as needed (default is off)
 - When on, play the video and it will start downloading the video
   - If it's on and does not start downloading the video
