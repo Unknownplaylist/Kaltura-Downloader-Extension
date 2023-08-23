@@ -18,7 +18,7 @@ The extension's core functionality is centred around the URL "https://api.sg.kal
 # To get started 
 - When you load the page
 - when you play video the extension finds for the get request matching it to a parrmeters that the ending of the get url is seg-1-v1-a1.ts
-  - Found in [background.js]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/Unknownplaylist/Kaltura-Download-Extension/blob/main/background.js))
+  - Found in [background.js](background.js)
   ```
   function onWebRequestCompleted(details) {
   if (details.tabId !== -1 && details.method === "GET" && details.url.endsWith("seg-1-v1-a1.ts")) {
