@@ -1,2 +1,20 @@
 # Kaltura-Download-Toggle
-The "Kaltura Download Toggle" extension aims to help students that use kaltura to get videos for offline viewing
+The purpose behind the development of the "Kaltura Offline Access" extension is to provide a practical solution for students who utilize Kaltura's video platform. This extension is designed with the specific goal of enabling students to effortlessly download videos from the Kaltura platform, thereby facilitating convenient offline viewing.
+
+The extension's core functionality is centred around the URL "https://api.sg.kaltura.com".
+
+# To get started 
+- Download and extract Kaltura-Download-Toggle.zip
+- Go to chrome://extensions/
+- Enable Developer mode
+- Load unpacked
+- Select Kaltura-Download-Toggle
+- Reload and the extension will be on the extension menu
+- Toggle it on/off as needed
+- When on click on the play button of the video and it will start downloading it
+# Notes 
+- If the download doesn't start just refresh
+  
+
+
+
