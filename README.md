@@ -14,7 +14,10 @@ The extension's core functionality is centred around the URL "https://api.sg.kal
 - When on click on the play button of the video and it will start downloading it
 # Notes 
 - If the download doesn't start just refresh
-  
+
+# References
+- kaltura.png IMAGE 
+  - Kaltura. (n.d.). Retrieved August 23, 2023, from https://avatars.githubusercontent.com/u/319096?s=200&amp;v=4. 
 
 
 
