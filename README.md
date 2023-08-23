@@ -11,13 +11,14 @@ The extension's core functionality is centred around the URL "https://api.sg.kal
 - Select the extracted Kaltura-Download-Toggle-main file
 - Reload and the extension will be on the extension menu 
 - Toggle it on/off as needed (default is off)
-- When on click the play button and it will start downloading the video
-# Notes 
-- If the download doesn't start just refresh
+- When on, play the video and it will start downloading the video
+  - If it's on and does not start downloading the video
+  - Try to reload the page and play it again
+
   
-# To get started 
-- When you load the page
-- when you play video the extension finds for the get request matching it to a parrmeters that the ending of the get url is seg-1-v1-a1.ts
+# Explanation
+- Load the page
+- When you play the video, the extension finds for the "GET" request matching the parameter, which is the ending of "GET" request url being seg-1-v1-a1.ts
   - Found in [background.js](background.js)
   ```
   function onWebRequestCompleted(details) {
@@ -26,9 +27,14 @@ The extension's core functionality is centred around the URL "https://api.sg.kal
   }
   }
   ```
+- "GET" request url segment example  ```https://vodcdn.sg.kaltura.com/hls/p/......../name/a.mp4/seg-1-v1-a1.ts ```
+- Then it replace the "/p/" to a "/pd/" 
+- Subsequently downloading it as a mp4 file
+- Credit goes to RobMOz , edimshuffling and the numerous other contributors from the Stack Overflow community
+  
 # References
 - https://stackoverflow.com/questions/56366523/obtaining-direct-download-link-for-an-embedded-kaltura-video
-  - The extension is a automation on RobMOz explation on this stackoverflow qustion
+  - The extension is an automation on RobMOz explanation while using edimshuffling URL edit method on this stackoverflow question 
 - kaltura.png IMAGE 
   - Kaltura. (n.d.). Retrieved August 23, 2023, from https://avatars.githubusercontent.com/u/319096?s=200&amp;v=4. 
 
