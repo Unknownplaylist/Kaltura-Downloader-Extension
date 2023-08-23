@@ -4,11 +4,11 @@ The purpose behind the development of the "Kaltura-Downloader-Extension" is to p
 The extension's core functionality is centred around the URL "https://api.sg.kaltura.com".
 
 # To get started 
-- Download and extract Kaltura-Download-Toggle-main.zip
+- Download and extract Kaltura-Downloader-Extension-main.zip
 - Go to chrome://extensions/
 - Enable Developer mode
 - Select load unpacked
-- Select the extracted Kaltura-Download-Toggle-main file
+- Select the extracted Kaltura-Downloader-Extension-main file
 - Reload and the extension will be on the extension menu
   - Watch this video if still unsure how to load the extension
   - https://www.youtube.com/watch?v=oswjtLwCUqg
